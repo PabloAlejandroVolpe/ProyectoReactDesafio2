@@ -4,8 +4,8 @@ import './UnderConstruction.css'
 const UnderConstruction = () => {
     return (
         <div className="ucCard">
-            <h1>UNDER CONSTRUCTION</h1>
-            <h4>Este sitio aún se encuentra en construcción. Próximamente habilitaremos esta sección</h4>
+            <h1>EN CONSTRUCCION</h1>
+            <h4>Este apartado aún se encuentra en construcción. Próximamente lo habilitaremos</h4>
         </div>
 
     )
