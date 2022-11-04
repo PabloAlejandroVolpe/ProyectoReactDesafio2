@@ -1,0 +1,32 @@
+.nav-logo {
+    height: 50px;
+    width: auto;
+}
+
+#cont-bg {
+    background-color: #fff159 ; 
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.searchBarText {
+    align-items: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,224,76,1) 0%, rgba(228,240,37,1) 53%, rgba(107,112,33,1) 79%, rgba(239,255,1,1) 100%, rgba(0,212,255,1) 100%);
+    color: #33333399;
+    text-align: center;
+    justify-content: center;
+}
+
+#offer-just {
+    padding-top: 1em;
+    font-weight: 500;
+}
+
+
+@media (min-width: 992px) {
+    #offer-just {
+        padding-top: 0px;
+    }
+    
+}

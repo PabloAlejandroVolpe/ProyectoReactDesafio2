@@ -1,0 +1,106 @@
+[
+    {
+        "id": "1",
+        "description": "Bola de arroz cubierta con palta",
+        "categories": "nigiris",
+        "price": "200",
+        "stock": "20",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/04/nigiri-aguacate-scaled-300x300.jpg"
+    },
+    {
+        "id": "2",
+        "description": "Bola de arroz cubierta con una feta de salmon e ikura",
+        "categories": "nigiris",
+        "price": "200",
+        "stock": "20",
+        "img":  "https://wasabisushisevilla.es/wp-content/uploads/2020/05/E.11-300x300.jpg"
+    },
+    {
+        "id": "3",
+        "description": "Bola de arroz cubierta con una feta de pez mantequilla",
+        "categories": "nigiris",
+        "price": "200",
+        "stock": "10",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/05/E.4-300x300.jpg"
+    },
+    {
+        "id": "4",
+        "description": "Bola de arroz cubierta con langostino",
+        "categories": "nigiris",
+        "price": "200",
+        "stock": "10",
+        "img":"https://wasabisushisevilla.es/wp-content/uploads/2020/05/E.5-300x300.jpg"
+    },
+    {
+        "id": "5",
+        "description": "Roll envuelto en alga nori relleno de arroz y atun",
+        "categories": "rolls",
+        "price": "300",
+        "stock": "10",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/04/A.1_maki_atun-300x300.jpg "
+    },
+    {
+        "id": "6",
+        "description": "Roll envuelto en alga nori relleno de arroz y salmon picante",
+        "categories": "rolls",
+        "price": "300",
+        "stock": "20",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/05/A.4_maki_salmon_picante-300x300.jpg"
+    },
+    {
+        "id": "7",
+        "description": "Roll envuelto en alga nori relleno de arroz y salmon",
+        "categories": "rolls",
+        "price": "300",
+        "stock": "15",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/05/A.3_maki_salmon-300x300.jpg"
+    },
+    {
+        "id": "8",
+        "description": "Roll envuelto en alga nori relleno de arroz y anguila",
+        "categories": "rolls",
+        "price": "300",
+        "stock": "20",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/05/A.7_maki_anguila-300x300.jpg"
+    },
+    {
+        "id": "9",
+        "description": "Laminas de atun crudo con salsa de soja",
+        "categories": "laminas",
+        "price": "500",
+        "stock": "20",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/05/G.2-300x300.jpg"
+    },
+    {
+        "id": "10",
+        "description": "Laminas de atun, pez mantequilla y salmon crudas con salsa de soja",
+        "categories": "laminas",
+        "price": "900",
+        "stock": "20",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/05/G.1-300x300.jpg"
+    },
+    {
+        "id": "11",
+        "description": "Laminas de atun ligeramente cocidas con salsa de soja",
+        "categories": "laminas",
+        "price": "600",
+        "stock": "20",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/05/G.5-300x300.jpg"
+    },
+    {
+        "id": "12",
+        "description": "Laminas de pez mantequilla crudo con salsa de soja",
+        "categories": "laminas",
+        "price": "600",
+        "stock": "20",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/05/G.4-300x300.jpg"
+    },
+    {
+        "id": "13",
+        "description": "Laminas de salmon crudo con salsa de soja",
+        "categories": "laminas",
+        "price": "600",
+        "stock": "20",
+        "img": "https://wasabisushisevilla.es/wp-content/uploads/2020/05/G.3-300x300.jpg"
+    }
+]

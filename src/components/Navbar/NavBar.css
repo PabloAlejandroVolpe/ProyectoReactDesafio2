@@ -1,0 +1,71 @@
+@font-face {
+    font-family: pros-nova;
+    src: url(../../fonts/Proxima-Nova.otf);
+}
+
+#root {
+    width: 100%;
+}
+
+#row-navbar-styles {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,224,76,1) 0%, rgba(228,240,37,1) 53%, rgba(107,112,33,1) 79%, rgba(239,255,1,1) 100%, rgba(0,212,255,1) 100%);
+    height: auto;
+    padding: 0.5em 2em;
+    font-family: pros-nova;
+}
+
+.nav-link{
+    font-size: 14px !important;
+    color: rgba(51,51,51,.9) !important;
+    font-weight: 400 !important;
+    padding-bottom: 0px !important;
+}
+
+#col-reset-side-pad {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#cont-reset-side-pad{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#just-end-to-center-nowrap {
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+#just-start-nowrap {
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.dropdown-menu.show {
+    background: #333 !important;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-family: pros-nova;
+    font-size: 13px;
+}
+
+.dropdown-item:hover {
+    background-color: #3483fa !important;
+}
+
+@media (min-width: 1200px) {
+    #just-end-to-center-nowrap {
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+    }
+    
+    #just-start-nowrap {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+}
