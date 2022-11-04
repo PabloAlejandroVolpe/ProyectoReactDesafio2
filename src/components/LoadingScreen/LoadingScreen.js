@@ -1,4 +1,4 @@
-import logo from './logotodosushi.png'
+import logo from './cargando.png'
 import React from 'react';
 import './LoadingScreen.css'
 
