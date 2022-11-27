@@ -8,16 +8,15 @@
 }
 
 #row-navbar-styles {
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,224,76,1) 0%, rgba(228,240,37,1) 53%, rgba(107,112,33,1) 79%, rgba(239,255,1,1) 100%, rgba(0,212,255,1) 100%);
+    background-image: url(./hd-wallpaper-1867616_1920.jpg);
     height: auto;
     padding: 0.5em 2em;
     font-family: pros-nova;
 }
 
 .nav-link{
-    font-size: 14px !important;
-    color: rgba(51,51,51,.9) !important;
+    font-size: 20px !important;
+    color: white!important;
     font-weight: 400 !important;
     padding-bottom: 0px !important;
 }

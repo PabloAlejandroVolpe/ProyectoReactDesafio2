@@ -1,12 +1,12 @@
-import logo from './cargando.png'
+import { logDOM } from '@testing-library/react';
 import React from 'react';
-import './LoadingScreen.css'
+import logo from "./mencorriendo.gif"
 
-const LoadingScreen = () => {
+
+const LoadingScreen = ({message}) => {
     return (
         <div className="loadingScreen">
             <img src={logo} className="App-logo" alt="logo-spinner" />
-            <h1>Cargando productos...</h1>
         </div>
     )
 }

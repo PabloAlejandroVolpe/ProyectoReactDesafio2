@@ -1,23 +1,21 @@
 import React from 'react'
 import './ItemCard.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import {Link} from "react-router-dom"
 import { Card, Col, Button } from 'react-bootstrap'
+import { formatNumber } from '../Utils/FetchProducts'
 
 
-const CardItem = ({id, description, price, stock, img}) => {
-
-    const productDetailUrl = "../item/" + id
-
+const ItemCard = ({id, description, price, stock, img}) => {
+    
     return (
         <Col xs={12} md={6} lg={3} xxl={2} className="itemsCols">
             {
                 <Card style={{width: '12rem'}} className="cardContainer"  >
                     <Card.Img variant="top" src={img} />
                     <Card.Body>
-                        <Card.Title>$ {price}</Card.Title>
+                        <Card.Title>$ {formatNumber(price)}</Card.Title>
                         <Card.Text>{description}</Card.Text>
-                        <Button as={Link} to={productDetailUrl} className="botonVer">Ver Detalles</Button>
+                        <Button as={Link} to={"../item/" + id} className="botonVer">Ver Detalles</Button>
                     </Card.Body>
                 </Card>
             }
@@ -25,4 +23,4 @@ const CardItem = ({id, description, price, stock, img}) => {
     )
 }
 
-export default CardItem
+export default ItemCard

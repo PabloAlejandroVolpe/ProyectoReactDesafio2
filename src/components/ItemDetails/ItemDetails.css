@@ -3,17 +3,6 @@
     src: url(../../fonts/Proxima-Nova.otf);
 }
 
-
-.botonAgregar {
-    background: rgb(186,196,42);
-background: linear-gradient(90deg, rgba(186,196,42,1) 0%, rgba(2,0,36,1) 0%, rgba(107,112,33,1) 0%, rgba(241,255,0,1) 51%, rgba(228,240,37,1) 94%, rgba(247,255,123,1) 100%);
-    width: 100%;
-    color: black;
-}
-.botonAgregar:hover{
-    color: black;
-}
-
 .cardContainer {
     display: flex;
     width: 18rem;
